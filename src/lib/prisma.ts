@@ -1,11 +1,5 @@
-import { PrismaClient } from '@prisma/client';
+import { PrismaClient } from '../../prisma/generated/client';
 
-const prisma = new PrismaClient({
-  datasources: {
-    db: {
-      url: process.env.POSTGRES_PRISMA_URL,
-    },
-  },
-});
+const prisma = new PrismaClient();
 
 export default prisma;
