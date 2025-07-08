@@ -1,0 +1,23 @@
+{
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-saasspeechtotext-prod-1528f-authRole",
+      "UnauthRoleArn": "arn:aws:iam::019662058844:role/amplify-saasspeechtotext-prod-1528f-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::019662058844:role/amplify-saasspeechtotext-prod-1528f-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-saasspeechtotext-prod-1528f-deployment",
+      "UnauthRoleName": "amplify-saasspeechtotext-prod-1528f-unauthRole",
+      "StackName": "amplify-saasspeechtotext-prod-1528f",
+      "StackId": "arn:aws:cloudformation:eu-north-1:019662058844:stack/amplify-saasspeechtotext-prod-1528f/ea4a2e70-5c29-11f0-b1b2-0aa77a2d41e9",
+      "AmplifyAppId": "d2pqknxyq74tvi"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d2pqknxyq74tvi",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}
